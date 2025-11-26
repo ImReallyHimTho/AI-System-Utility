@@ -1,0 +1,95 @@
+[2025-11-22 00:31:58] User input: can you clear my prefetch
+[2025-11-22 00:31:58] Gemini generate_content error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-11-22 00:31:58] ACTION START: clean_prefetch | Fallback keyword interpreter.
+[2025-11-22 00:31:58] ACTION SUCCESS: clean_prefetch
+[2025-11-22 11:57:14] User input: tighten my privacy
+[2025-11-22 11:57:14] Gemini generate_content error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-11-22 11:57:14] No action matched for input.
+[2025-11-22 12:01:31] User input: tighten my privacy
+[2025-11-22 12:01:31] Gemini generate_content error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-11-22 12:02:08] ACTION SKIP: privacy_recommended | User declined dangerous action (fallback).
+[2025-11-22 12:29:03] GUI input: clean temp
+[2025-11-22 12:29:03] Gemini generate_content error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-11-22 12:29:03] ACTION START: clean_temp | GUI keyword interpreter.
+[2025-11-22 12:29:04] ACTION SUCCESS: clean_temp
+[2025-11-22 15:21:53] [ai_system_utility.actions] WARNING: Plugin 'ai_system_utility.plugins.example_cleanup' register() failed: register() got an unexpected keyword argument 'registry'
+[2025-11-22 15:29:45] [ai_system_utility.actions] WARNING: Plugin 'ai_system_utility.plugins.example_cleanup' register() failed: register() got an unexpected keyword argument 'registry'
+[2025-11-22 15:29:48] [ai_system_utility.actions] WARNING: Plugin 'ai_system_utility.plugins.example_cleanup' register() failed: register() got an unexpected keyword argument 'registry'
+[2025-11-22 15:31:01] [ai_system_utility.gui] INFO: Running action: Open Task Manager
+[2025-11-22 15:31:01] [ai_system_utility.system_tools] INFO: Opening Task Manager
+[2025-11-22 15:31:01] [ai_system_utility.gui] INFO: Task Manager opened.
+[2025-11-22 15:31:01] [ai_system_utility.gui] INFO: Action completed: Open Task Manager
+[2025-11-22 15:31:08] [ai_system_utility.gui] INFO: Running action: Open Services
+[2025-11-22 15:31:08] [ai_system_utility.system_tools] INFO: Opening Services console
+[2025-11-22 15:31:08] [ai_system_utility.system_tools] INFO: Launching tool via explorer: ['explorer.exe', 'services.msc']
+[2025-11-22 15:31:08] [ai_system_utility.gui] INFO: Launched: services.msc
+[2025-11-22 15:31:08] [ai_system_utility.gui] INFO: Action completed: Open Services
+[2025-11-22 15:31:20] [ai_system_utility.gui] INFO: Running action: Open Device Manager
+[2025-11-22 15:31:20] [ai_system_utility.system_tools] INFO: Opening Device Manager
+[2025-11-22 15:31:20] [ai_system_utility.system_tools] INFO: Launching tool via explorer: ['explorer.exe', 'devmgmt.msc']
+[2025-11-22 15:31:20] [ai_system_utility.gui] INFO: Launched: devmgmt.msc
+[2025-11-22 15:31:20] [ai_system_utility.gui] INFO: Action completed: Open Device Manager
+[2025-11-22 15:31:27] [ai_system_utility.gui] INFO: Running action: Open System Restore
+[2025-11-22 15:31:27] [ai_system_utility.system_tools] INFO: Opening System Restore UI
+[2025-11-22 15:31:27] [ai_system_utility.gui] INFO: System Restore UI opened.
+[2025-11-22 15:31:27] [ai_system_utility.gui] INFO: Action completed: Open System Restore
+[2025-11-22 16:58:07] [ai_system_utility.actions] WARNING: Plugin 'ai_system_utility.plugins.example_cleanup' register() failed: register() got an unexpected keyword argument 'registry'
+[2025-11-22 16:58:10] [ai_system_utility.actions] WARNING: Plugin 'ai_system_utility.plugins.example_cleanup' register() failed: register() got an unexpected keyword argument 'registry'
+[2025-11-22 16:58:15] [ai_system_utility.gui] INFO: Running action: Open Device Manager
+[2025-11-22 16:58:15] [ai_system_utility.system_tools] INFO: Opening Device Manager
+[2025-11-22 16:58:15] [ai_system_utility.system_tools] ERROR: Failed to open Device Manager: [WinError 193] %1 is not a valid Win32 application
+[2025-11-22 16:58:15] [ai_system_utility.gui] INFO: Action failed: Failed to open Device Manager: [WinError 193] %1 is not a valid Win32 application
+[2025-11-22 16:58:25] [ai_system_utility.gui] INFO: Running action: Open Services
+[2025-11-22 16:58:25] [ai_system_utility.system_tools] INFO: Opening Services console
+[2025-11-22 16:58:25] [ai_system_utility.system_tools] ERROR: Failed to open Services console: [WinError 193] %1 is not a valid Win32 application
+[2025-11-22 16:58:25] [ai_system_utility.gui] INFO: Action failed: Failed to open Services console: [WinError 193] %1 is not a valid Win32 application
+[2025-11-22 17:32:19] [ai_system_utility.actions] WARNING: Plugin 'ai_system_utility.plugins.example_cleanup' register() failed: register() got an unexpected keyword argument 'registry'
+[2025-11-22 17:32:22] [ai_system_utility.actions] WARNING: Plugin 'ai_system_utility.plugins.example_cleanup' register() failed: register() got an unexpected keyword argument 'registry'
+[2025-11-22 17:32:27] [ai_system_utility.gui] INFO: Running action: Open Device Manager
+[2025-11-22 17:32:27] [ai_system_utility.system_tools] INFO: Opening Device Manager
+[2025-11-22 17:32:27] [ai_system_utility.gui] INFO: Device Manager opened.
+[2025-11-22 17:32:27] [ai_system_utility.gui] INFO: Action completed: Open Device Manager
+[2025-11-22 17:32:31] [ai_system_utility.gui] INFO: Running action: Open Services
+[2025-11-22 17:32:31] [ai_system_utility.system_tools] INFO: Opening Services console
+[2025-11-22 17:32:31] [ai_system_utility.gui] INFO: Services console opened.
+[2025-11-22 17:32:31] [ai_system_utility.gui] INFO: Action completed: Open Services
+[2025-11-22 17:32:40] [ai_system_utility.gui] INFO: Running action: Open Task Manager
+[2025-11-22 17:32:40] [ai_system_utility.system_tools] INFO: Opening Task Manager
+[2025-11-22 17:32:40] [ai_system_utility.gui] INFO: Task Manager opened.
+[2025-11-22 17:32:40] [ai_system_utility.gui] INFO: Action completed: Open Task Manager
+[2025-11-22 17:32:44] [ai_system_utility.gui] INFO: Running action: Open System Restore
+[2025-11-22 17:32:44] [ai_system_utility.system_tools] INFO: Opening System Restore UI
+[2025-11-22 17:32:44] [ai_system_utility.gui] INFO: System Restore UI opened.
+[2025-11-22 17:32:44] [ai_system_utility.gui] INFO: Action completed: Open System Restore
+[2025-11-22 18:09:08] [ai_system_utility.actions] WARNING: Plugin 'ai_system_utility.plugins.example_cleanup' register() failed: register() got an unexpected keyword argument 'registry'
+[2025-11-22 18:09:11] [ai_system_utility.actions] WARNING: Plugin 'ai_system_utility.plugins.example_cleanup' register() failed: register() got an unexpected keyword argument 'registry'
+[2025-11-22 18:09:40] [ai_system_utility.gui] INFO: Running action: Clean Prefetch Folder
+[2025-11-22 18:09:40] [ai_system_utility.system_tools] INFO: Cleaned Prefetch folder C:\WINDOWS\Prefetch: 78 files, 0 dirs
+[2025-11-22 18:09:40] [ai_system_utility.gui] INFO: Prefetch cleanup completed. Removed approximately 78 files and 0 folders.
+[2025-11-22 18:09:40] [ai_system_utility.gui] INFO: Action completed: Clean Prefetch Folder
+[2025-11-22 18:09:54] [ai_system_utility.gui] INFO: Running action: Clean Temp Files
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\09d9b157-fa4a-413e-a4e2-0534e7431189.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\09d9b157-fa4a-413e-a4e2-0534e7431189.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\1821e269-0e88-49e6-8d75-06a1f885a18a.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\1821e269-0e88-49e6-8d75-06a1f885a18a.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\2cba612b-c7a3-431b-84f7-e1ea3c07f383.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\2cba612b-c7a3-431b-84f7-e1ea3c07f383.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\370821ea-6e8a-43d3-bb02-3c85bacacaca.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\370821ea-6e8a-43d3-bb02-3c85bacacaca.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\4ada518c-d8df-471a-8002-49bac159ffbc.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\4ada518c-d8df-471a-8002-49bac159ffbc.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\541f7084-62a9-4f40-87f5-e42b86d6364a.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\541f7084-62a9-4f40-87f5-e42b86d6364a.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\55b3a34a-78ee-439f-9947-a6e1e3a835fd.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\55b3a34a-78ee-439f-9947-a6e1e3a835fd.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\61b1b2c9-f4f0-4fcd-a5c3-cfc90945dc80.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\61b1b2c9-f4f0-4fcd-a5c3-cfc90945dc80.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\694d2320-725a-404c-aeb0-30ea9b726e5a.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\694d2320-725a-404c-aeb0-30ea9b726e5a.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\7a1a4f74-6ca6-428f-85f4-cc88e6312a03.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\7a1a4f74-6ca6-428f-85f4-cc88e6312a03.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\80f982c2-8fff-4c17-80a8-f016297e9eb1.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\80f982c2-8fff-4c17-80a8-f016297e9eb1.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\8d93f4be-6784-4958-8217-9c53ad444834.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\8d93f4be-6784-4958-8217-9c53ad444834.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\bb556a27-0d7c-4af2-a387-2790518ba257.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\bb556a27-0d7c-4af2-a387-2790518ba257.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\c2993314-905c-44f8-ab60-265fcabf7c68.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\c2993314-905c-44f8-ab60-265fcabf7c68.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\e11ba148-e85e-4e51-b921-faff4d4f480d.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\e11ba148-e85e-4e51-b921-faff4d4f480d.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\Users\Abdul\AppData\Local\Temp\fb65635b-0e9d-4bb7-8e11-f6e9d6664463.tmp: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Abdul\\AppData\\Local\\Temp\\fb65635b-0e9d-4bb7-8e11-f6e9d6664463.tmp'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] INFO: Cleaned temp folder C:\Users\Abdul\AppData\Local\Temp: 3 files, 1 dirs
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] WARNING: Failed to delete C:\WINDOWS\Temp\DESKTOP-Q0BLHRV-20251122-1317.log: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\WINDOWS\\Temp\\DESKTOP-Q0BLHRV-20251122-1317.log'
+[2025-11-22 18:09:54] [ai_system_utility.system_tools] INFO: Cleaned temp folder C:\WINDOWS\Temp: 2 files, 5 dirs
+[2025-11-22 18:09:54] [ai_system_utility.gui] INFO: Temp cleanup completed. Removed approximately 5 files and 6 folders.
+[2025-11-22 18:09:54] [ai_system_utility.gui] INFO: Action completed: Clean Temp Files
+[2025-11-22 18:11:42] [ai_system_utility.gui] INFO: Running action: Open Task Manager
+[2025-11-22 18:11:42] [ai_system_utility.system_tools] INFO: Opening Task Manager
+[2025-11-22 18:11:42] [ai_system_utility.gui] INFO: Task Manager opened.
+[2025-11-22 18:11:42] [ai_system_utility.gui] INFO: Action completed: Open Task Manager

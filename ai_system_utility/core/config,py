@@ -1,0 +1,14 @@
+# ai_system_utility/core/config.py
+import os
+
+# Which Gemini model to use
+GEMINI_MODEL_NAME = "gemini-1.5-flash"
+
+# Base directory of the package (ai_system_utility)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Logs directory (ai_system_utility/logs)
+LOG_DIR = os.path.join(BASE_DIR, "logs")
+
+# Make sure the logs folder exists
+os.makedirs(LOG_DIR, exist_ok=True)
